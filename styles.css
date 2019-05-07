@@ -7,50 +7,22 @@
 body {
   background: #FF95BA;
   width: 100%;
-  overflow-x: hidden;
+  height: 100vh;
 }
 
 .top-section {
   text-align: center;
   padding: 20px;
   max-width: 100%;
-  height: calc(100vh - 120px);
-  position: relative;
-}
-
-.logo-container {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  width: 50%;
-  text-align: center;
-}
-
-.logo-container img {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.product-image {
-  width: 70%;
-  max-width: 1500px;
-  position: absolute;
-  right: -6.25%;
-  bottom: -120px;
-}
-
-.middle-section {
-  padding: 100px 0;
-  width: 100vw;
-  background: #5B75B5;
-  border: 60px solid #5B75B5;
-  border-radius: 100%/60px 60px 0 0;
-  margin-left: -60px;
 }
 
 img {
   max-width: 100%;
   display: block;
+  margin: 0 auto;
 }
 
 .wevoted {
