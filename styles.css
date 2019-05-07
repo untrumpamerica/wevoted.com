@@ -113,4 +113,8 @@ img {
   .middle-section {
     padding: 0 0 100px 0;
   }
+
+  .newsletter-signup {
+    position: relative;
+  }
 }
