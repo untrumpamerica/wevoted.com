@@ -14,6 +14,11 @@
   src: url('fonts/pinto.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Aldred';
+  src: url('fonts/aldredregularAldred-webfont.woff') format('woff');
+}
+
 body {
   background: #5B5BA3;
   width: 100%;
@@ -96,7 +101,8 @@ h3 {
 
 .copyright {
   color: #2C2C57;
-  font-size: 14px;
+  font-family: Aldred, sans-serif;
+  font-size: 13px;
   margin: 50px 30px;
   text-transform: uppercase;
 }
