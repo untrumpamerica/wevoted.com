@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+@font-face {
+  font-family: 'Supernett CN';
+  src: url('fonts/Supernettcn-Condensed.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pinto';
+  src: url('fonts/pinto.woff') format('woff');
+}
+
+body {
+  background: #5B5BA3;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Supernett CN', sans-serif;
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Pinto', sans-serif;
+}
+
+.top-section {
+  text-align: center;
+  padding: 20px;
+  max-width: 100%;
+  position: relative;
+}
+
+.wevoted {
+  width: 270px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.logo-container img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-image {
+  width: -180%;
+  margin: 0 -40% -150px -40%;
+}
+
+.middle-section {
+  padding: 50px 0 100px 0;
+  width: 100vw;
+  background: #5B75B5;
+  border: 60px solid #5B75B5;
+  border-radius: 100%/60px 60px 0 0;
+  margin-left: -60px;
+}
+
+.text-container {
+  width: 921px;
+  max-width: calc(100% - 60px);
+  margin: 0 auto;
+}
+
+.text-container h3 {
+  font-size: 50px;
+  color: #FF95BA;
+  line-height: 50px;
+  margin-top: 100px;
+}
+
+.text-container p {
+  font-size: 30px;
+  line-height: 50px;
+  margin-top: 30px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.comingsoon {
+  width: 23%;
+  max-width: 221px;
+  margin-top: 1.5625vw;
+}
+
+.newsletter-signup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: #ffac0f;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-container img {
+    margin: 0;
+  }
+
+  .product-image {
+    width: 1267px;
+    max-width: 100%;
+    margin: 0 auto -250px auto;
+  }
+
+  .middle-section {
+    padding: 216px 0 130px 0;
+  }
+}
