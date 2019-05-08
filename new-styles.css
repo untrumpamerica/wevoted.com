@@ -134,6 +134,13 @@ img {
   width: 331px;
 }
 
+.social-links {
+  position: fixed;
+  top: 32px;
+  right: 32px;
+  width: 40px;
+}
+
 @media only screen and (min-width: 768px) {
   .logo-container img {
     margin: 0;
