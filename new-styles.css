@@ -103,7 +103,8 @@ img {
 
 .signup-form {
   margin: 27px auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .signup-form label {
@@ -111,6 +112,7 @@ img {
   font-weight: normal;
   font-size: 24px;
   margin-right: 12px;
+  line-height: 40px;
 }
 
 .signup-form input {
