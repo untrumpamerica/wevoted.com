@@ -56,7 +56,7 @@ h3 {
 }
 
 .middle-section {
-  padding: 33px 0 66px 0;
+  padding: 33px 0 16px 0;
   width: 100vw;
   background: #6568AD;
   border: 60px solid #6568AD;
@@ -92,6 +92,13 @@ h3 {
 .text-container a:hover {
   color: #FF95BA;
   border-color: #ff95ba;
+}
+
+.copyright {
+  color: #2C2C57;
+  font-size: 14px;
+  margin: 50px 30px;
+  text-transform: uppercase;
 }
 
 img {
@@ -174,7 +181,7 @@ img {
   }
 
   .middle-section {
-    padding: 80px 0 100px 0;
+    padding: 80px 0 0 0;
   }
 
   .social-links {
@@ -194,5 +201,9 @@ img {
 
   .signup-form input[type="button"] {
     margin-left: 24px;
+  }
+
+  .copyright {
+    margin: 50px;
   }
 }
