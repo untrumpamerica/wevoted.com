@@ -64,7 +64,7 @@ h3 {
 
 .text-container {
   width: 600px;
-  max-width: calc(100% - 60px);
+  max-width: calc(100% - 80px);
   margin: 0 auto;
 }
 
@@ -110,7 +110,7 @@ img {
   font-family: 'Pinto', sans-serif;
   font-weight: normal;
   font-size: 24px;
-  margin-right: 24px;
+  margin-right: 12px;
 }
 
 .signup-form input {
@@ -127,17 +127,18 @@ img {
   font-family: 'Pinto', sans-serif;
   font-weight: normal;
   font-size: 20px;
-  margin-left: 24px;
+  margin-left: 8px;
 }
 
 .signup-form .email {
-  width: 222px;
+  padding: 0 12px;
+  width: 100px;
 }
 
 .social-links {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   width: 30px;
 }
 
@@ -154,5 +155,24 @@ img {
 
   .middle-section {
     padding: 80px 0 100px 0;
+  }
+
+  .social-links {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+  }
+
+  .signup-form label {
+    margin-right: 24px;
+  }
+
+  .signup-form .email {
+    width: 222px;
+  }
+
+  .signup-form input[type="button"] {
+    margin-left: 24px;
   }
 }
