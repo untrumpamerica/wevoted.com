@@ -20,6 +20,8 @@ body {
   overflow-x: hidden;
   font-family: 'Supernett CN', sans-serif;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h3 {
@@ -76,9 +78,20 @@ h3 {
 }
 
 .text-container p {
-  font-size: 20px;
-  line-height: 33px;
-  margin-top: 20px;
+  font-size: 22px;
+  line-height: 36px;
+  margin-top: 22px;
+}
+
+.text-container a {
+  color: white;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+.text-container a:hover {
+  color: #FF95BA;
+  border-color: #ff95ba;
 }
 
 img {
@@ -97,12 +110,12 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 95px;
+  height: 70px;
   background: #ffac0f;
 }
 
 .signup-form {
-  margin: 27px auto;
+  margin: 15px auto;
   display: flex;
   justify-content: center;
 }
@@ -130,6 +143,11 @@ img {
   font-weight: normal;
   font-size: 20px;
   margin-left: 8px;
+  cursor: pointer;
+}
+
+.signup-form input[type="button"]:hover {
+  background: #6568AD;
 }
 
 .signup-form .email {
