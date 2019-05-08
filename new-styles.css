@@ -35,12 +35,12 @@ h3 {
 }
 
 .wevoted {
-  width: 270px;
+  width: 180px;
 }
 
 .logo-container {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .logo-container img {
@@ -50,11 +50,11 @@ h3 {
 
 .product-image {
   width: -180%;
-  margin: 0 -40% -150px -40%;
+  margin: 0 -40% -100px -40%;
 }
 
 .middle-section {
-  padding: 50px 0 100px 0;
+  padding: 33px 0 66px 0;
   width: 100vw;
   background: #5B75B5;
   border: 60px solid #5B75B5;
@@ -63,22 +63,22 @@ h3 {
 }
 
 .text-container {
-  width: 921px;
+  width: 600px;
   max-width: calc(100% - 60px);
   margin: 0 auto;
 }
 
 .text-container h3 {
-  font-size: 50px;
+  font-size: 33px;
   color: #FF95BA;
-  line-height: 50px;
-  margin-top: 100px;
+  line-height: 33px;
+  margin-top: 66px;
 }
 
 .text-container p {
-  font-size: 30px;
-  line-height: 50px;
-  margin-top: 30px;
+  font-size: 20px;
+  line-height: 33px;
+  margin-top: 20px;
 }
 
 img {
@@ -88,7 +88,7 @@ img {
 
 .comingsoon {
   width: 23%;
-  max-width: 221px;
+  max-width: 147px;
   margin-top: 1.5625vw;
 }
 
@@ -97,48 +97,48 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 142px;
+  height: 95px;
   background: #ffac0f;
 }
 
 .signup-form {
-  margin: 41px auto;
+  margin: 27px auto;
   text-align: center;
 }
 
 .signup-form label {
   font-family: 'Pinto', sans-serif;
   font-weight: normal;
-  font-size: 35px;
-  margin-right: 34px;
+  font-size: 24px;
+  margin-right: 24px;
 }
 
 .signup-form input {
   border: none;
   outline: none;
-  height: 60px;
+  height: 40px;
   font-family: 'Supernett CN', sans-serif;
 }
 
 .signup-form input[type="button"] {
   background: #ff95ba;
   color: #fff;
-  padding: 0 30px;
+  padding: 0 20px;
   font-family: 'Pinto', sans-serif;
   font-weight: normal;
-  font-size: 30px;
-  margin-left: 23px;
+  font-size: 20px;
+  margin-left: 24px;
 }
 
 .signup-form .email {
-  width: 331px;
+  width: 222px;
 }
 
 .social-links {
   position: fixed;
-  top: 32px;
-  right: 32px;
-  width: 40px;
+  top: 20px;
+  right: 20px;
+  width: 30px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -147,12 +147,12 @@ img {
   }
 
   .product-image {
-    width: 1267px;
+    width: 845px;
     max-width: 100%;
-    margin: 0 auto -250px auto;
+    margin: 0 auto -167px auto;
   }
 
   .middle-section {
-    padding: 216px 0 130px 0;
+    padding: 144px 0 100px 0;
   }
 }
