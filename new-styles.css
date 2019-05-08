@@ -97,8 +97,41 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 142px;
   background: #ffac0f;
+}
+
+.signup-form {
+  margin: 41px auto;
+  text-align: center;
+}
+
+.signup-form label {
+  font-family: 'Pinto', sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  margin-right: 34px;
+}
+
+.signup-form input {
+  border: none;
+  outline: none;
+  height: 60px;
+  font-family: 'Supernett CN', sans-serif;
+}
+
+.signup-form input[type="button"] {
+  background: #ff95ba;
+  color: #fff;
+  padding: 0 30px;
+  font-family: 'Pinto', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  margin-left: 23px;
+}
+
+.signup-form .email {
+  width: 331px;
 }
 
 @media only screen and (min-width: 768px) {
