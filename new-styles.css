@@ -151,7 +151,7 @@ img {
 
 .signup-form input {
   -webkit-appearance: none;
-  border-radius: none;
+  border-radius: 0px;
   border: none;
   outline: none;
   height: 30px;
@@ -177,6 +177,8 @@ img {
   padding: 0 12px;
   width: 100px;
   font-size: 75%;
+  -webkit-appearance: none;
+  border-radius: none;
 }
 
 .social-links {
