@@ -36,9 +36,10 @@ h3 {
 
 .top-section {
   text-align: center;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   max-width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .wevoted {
@@ -60,11 +61,16 @@ h3 {
   margin: 0 -40% -100px -40%;
 }
 
-.middle-section {
-  padding: 33px 60px 60px 60px;
-  background: #6568AD;
+.curved-edge {
+  display: block;
+  border: 80px solid #6568AD;
   border-radius: 100%/60px 60px 0 0;
   margin: 0 -60px;
+}
+
+.middle-section {
+  padding: 0 0 60px 0;
+  background: #6568AD;
 }
 
 .text-container {
@@ -78,6 +84,10 @@ h3 {
   color: #FF95BA;
   line-height: 33px;
   margin-top: 66px;
+}
+
+.text-container h3:first-child {
+  margin-top: 0;
 }
 
 .text-container p {
