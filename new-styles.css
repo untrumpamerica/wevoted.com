@@ -150,6 +150,7 @@ img {
 }
 
 .signup-form input {
+  -webkit-appearance: none;
   border: none;
   outline: none;
   height: 40px;
