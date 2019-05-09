@@ -83,7 +83,7 @@ h3 {
   font-size: 33px;
   color: #FF95BA;
   line-height: 33px;
-  margin-top: 66px;
+  margin-top: 44px;
 }
 
 .text-container h3:first-child {
@@ -92,8 +92,8 @@ h3 {
 
 .text-container p {
   font-size: 22px;
-  line-height: 36px;
-  margin-top: 22px;
+  line-height: 30px;
+  margin-top: 12px;
 }
 
 .text-container a {
