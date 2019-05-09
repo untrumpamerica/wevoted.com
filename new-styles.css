@@ -131,7 +131,6 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 70px;
   background: #ffac0f;
 }
 
@@ -144,26 +143,28 @@ img {
 .signup-form label {
   font-family: 'Pinto', sans-serif;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   margin-right: 12px;
-  line-height: 40px;
+  line-height: 30px;
+  display: block;
 }
 
 .signup-form input {
   -webkit-appearance: none;
+  border-radius: none;
   border: none;
   outline: none;
-  height: 40px;
+  height: 30px;
   font-family: 'Supernett CN', sans-serif;
 }
 
 .signup-form input[type="submit"] {
   background: #ff95ba;
   color: #fff;
-  padding: 0 20px;
+  padding: 0 15px;
   font-family: 'Pinto', sans-serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 8px;
   cursor: pointer;
 }
@@ -175,6 +176,7 @@ img {
 .signup-form .email {
   padding: 0 12px;
   width: 100px;
+  font-size: 75%;
 }
 
 .social-links {
@@ -211,16 +213,26 @@ img {
     width: 30px;
   }
 
+  .signup-form input {
+    height: 40px;
+  }
+
   .signup-form label {
+    display: inline-block;
     margin-right: 24px;
+    font-size: 24px;
+    line-height: 40px;
   }
 
   .signup-form .email {
     width: 222px;
+    font-size: 100%;
   }
 
   .signup-form input[type="submit"] {
     margin-left: 24px;
+    font-size: 20px;
+    padding: 0 20px;
   }
 
   .copyright {
