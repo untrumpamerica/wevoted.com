@@ -26,7 +26,7 @@ body {
   overscroll-behavior: none;
   font-family: quiroh, 'Arial Narrow', Arial, sans-serif;
   font-weight: 400;
-  background: #f5f6f6;
+  background: #0075d0;
   color: #fff;
 }
 
@@ -63,11 +63,12 @@ h3 {
 }
 
 .top-section {
-  background: #0075d0;
   text-align: center;
-  padding: 20px 20px 0 20px;
   max-width: 100%;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -76,7 +77,7 @@ h3 {
 .logo {
   display: block;
   margin: 0 auto;
-  max-width: 15rem;
+  max-width: 20rem;
 }
 
 .tagline {
